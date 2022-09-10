@@ -71,10 +71,9 @@ function NavbarMenu() {
 									</a>
 								</li>{" "}
 								<li className="nav-item vertical-line"> </li>
-								<button className=" nav-btn Register-btn btn ">
+								<button className=" nav-btn  btn Register-btn">
 									<a href="/#">Register</a>
 								</button>
-							
 							</ul>
 						</div>
 					</div>
