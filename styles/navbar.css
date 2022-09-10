@@ -8,7 +8,14 @@ nav{
 .nav-logo{
     width: 100px;
 }
-
+.offcanvas.show:not(.hiding),
+.offcanvas.showing {
+    transform: none;
+    transition: 1s;
+}
+.offcanvas.offcanvas-end {
+        transition: 1s;
+}
 .nav-link {
     content: '';
     position: relative;

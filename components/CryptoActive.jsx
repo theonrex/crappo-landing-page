@@ -11,21 +11,27 @@ function CryptoActive(props) {
 				{" "}
 				Trade securely and market the high growth cryptocurrencies.{" "}
 			</header>
-			<div className="rowx active-row  container" >
+			<div
+				className="rowx active-row  container"
+				data-aos="fade-right"
+				data-aos-offset="300"
+				data-aos-duration="1200"
+				data-aos-easing="ease-in-sine"
+			>
 				{cryptoData.map((item, index) => {
 					const { coinName, coin, id, coinText, coinDetails, image } = item;
 					return (
 						<aside
-							data-aos="fade-right"
-							data-aos-offset="300"
-							data-aos-duration="2000"
-							data-aos-easing="ease-in-sine"
 							onClick={() => setActive(id)}
 							className={`${
 								id === active ? "bg-blue " : "transp"
 							}  activeclass`}
 						>
-							<div className="coin-image">
+							<div
+								className="coin-image"
+								data-aos="zoom-in"
+								
+							>
 								<img src={image.src} alt="btc" />
 							</div>
 							<h1 className="coinText">

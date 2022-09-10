@@ -151,15 +151,25 @@ border-radius: 3em;
                     font-size: 2.6em;
                  
                 }
+
         
 }
 
-@media screen and (max-width:350px) {
+@media screen and (max-width:360px) {
+.black-friday {
+        background-color: rgba(255, 255, 255, 0.212);
+        width: 100%;
+        font-size: 4vw !important;
+        padding: 3px 2em 3px 7em;
+       
+    }
 .header-text {
         font-size: 1.5em;
 
     }
-
+        .save {
+           font-size: 4vw !important;
+        }
         .black-friday {
             background-color: rgba(255, 255, 255, 0.212);
           
@@ -481,7 +491,7 @@ input[type = submit] {
 }
 .ESTIMATED header{
     padding-top: 1em;
-    color: blue;
+    color: #0753c5;
     font-size: 1em;
     font-weight: bold;
     padding-bottom:0.5em;
@@ -534,6 +544,10 @@ color: #0753c5;
     }
 .choose h1 {
     font-size: 1.5em;
+}
+.ESTIMATED h1 {
+    font-size: 7vw !important;
+    font-weight: 700;
 }
 }
 /*CryptoActive*/
@@ -719,7 +733,7 @@ background-color: transparent;
 @media screen and (max-width:533px) {
 
     .CryptoActive header {
-        width: 80%;
+        width: 95%;
         padding-top: 8em;
         font-size: 1.6em;
 
@@ -728,7 +742,7 @@ background-color: transparent;
         @media screen and (max-width:410px) {
     
             .CryptoActive header {
-                width: 80%;
+                width: 96%;
                 padding-top: 9em;
     
             }
@@ -736,14 +750,13 @@ background-color: transparent;
                    @media screen and (max-width:325px) {
         
                        .CryptoActive header {
-                           width: 80%;
+                           width: 100%;
                            padding-top: 9em;
         
                        }
                    }   @media screen and (max-width:358px) {
                 
                        .CryptoActive header {
-                           width: 80%;
                            padding-top: 12em;
                 
                        }
@@ -866,7 +879,7 @@ right: 0;
         padding-bottom: 0em;
         padding-left: 0;
         padding-right: 0;
-        width: 90%;
+        width: 95%;
         font-size: 2em;
         margin: 0;
 
@@ -892,7 +905,33 @@ right: 0;
                     order: 1;
                 }
 }
+@media screen and (max-width:450px) {
+    .cic img {
+        width: 100%;
+    }
+        .Invest p,
+                .Statistic p,
+                .grow p {
+            width: 90%;
+        }
 
+    .market>header {
+        text-align: left;
+        padding-bottom: 0em;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+        font-size: 1.6em;
+        margin: 0;
+
+    }
+.grow header,
+.Statistic header,
+.Invest header{
+    font-size: 7vw;
+}
+
+}
 /*subscribe*/
 .cta_content input{
     background-color: transparent !important;
