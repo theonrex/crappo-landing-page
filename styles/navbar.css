@@ -47,15 +47,15 @@ nav{
 }
 
 .Register-btn{
-    background-color: #3671E9;
-    color: white;
-    border-radius: 3em;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
+    background-color: #3671E9 !important;
+    color: white !important;
+    border-radius: 3em !important;
+    padding-left: 1.5em !important;
+    padding-right: 1.5em !important;
 }
 
 .Register-btn:hover{
-    background-color: #3671E9;
+    background-color: #3671E9 !important;
     border: none;
    
 }
