@@ -16,6 +16,10 @@ function CryptoActive(props) {
 					const { coinName, coin, id, coinText, coinDetails, image } = item;
 					return (
 						<aside
+							data-aos="fade-right"
+							data-aos-offset="300"
+							data-aos-duration="2000"
+							data-aos-easing="ease-in-sine"
 							onClick={() => setActive(id)}
 							className={`${
 								id === active ? "bg-blue " : "transp"

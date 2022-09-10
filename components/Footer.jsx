@@ -4,13 +4,13 @@ import visa from "../public/images/bx_bxl-visa.png";
 import masterCard from "../public/images/logos_mastercard.png";
 import Bitcoin from "../public/images/logos_bitcoin.png";
 
-
 function Footer() {
   return (
 		<div>
 			<Subscribe />
 
 			<footer className="deneb_footer">
+				{/* <BackToTop/> */}
 				<div className="widget_wrapper">
 					<div className="container">
 						<div className="row">
@@ -150,11 +150,11 @@ function Footer() {
 									<p>©2021 CRAPPO. All rights reserved</p>
 								</div>{" "}
 								<div className="copyright_text_icons">
-									<i class="bi bi-facebook"></i>
-									<i class="bi bi-instagram"></i>
-									<i class="bi bi-youtube"></i>
-									<i class="bi bi-twitter"></i>
-									<i class="bi bi-linkedin"></i>
+									<i className="bi bi-facebook"></i>
+									<i className="bi bi-instagram"></i>
+									<i className="bi bi-youtube"></i>
+									<i className="bi bi-twitter"></i>
+									<i className="bi bi-linkedin"></i>
 								</div>
 							</div>
 						</div>

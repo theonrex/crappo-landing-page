@@ -12,11 +12,13 @@ nav{
 .nav-link {
     content: '';
     position: relative;
-    color: white;
+    color: white !important;
             margin: auto 12px;
             font-family: 'Rubik', sans-serif;
 }
-
+.offcanvas-end{
+        background-color: #0D0D2B !important;
+}
 .nav-link:hover {
     color: #3671E9;
 }
@@ -85,4 +87,20 @@ nav{
     color: transparent;
     border-color: transparent;
     border-color: transparent;
+}
+
+@media screen and (max-width:1193px){
+    .nav-link {
+            position: relative;
+            color: white !important;
+            margin: 0.7em 0.5em;
+            font-family: 'Rubik', sans-serif;
+        }
+                .Register-btn {
+margin-top: 1em;
+                    color: white;
+                    border-radius: 3em;
+                    padding-left: 1.5em;
+                    padding-right: 1.5em;
+                }
 }

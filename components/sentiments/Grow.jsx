@@ -7,7 +7,12 @@ function Grow() {
 		<div className="grow-bg">
 			<div className="container ">
 				<section className="rowx grow">
-					<div className="col50">
+					<div
+						className="col50"
+						data-aos="fade-down"
+						data-aos-easing="linear"
+						data-aos-duration="1500"
+					>
 						<header> Grow your profit and track your investments</header>
 						<p>
 							Use advanced analytical tools. Clear TradingView charts let you
@@ -23,7 +28,12 @@ function Grow() {
 					</div>
 				</section>
 			</div>
-			<div className="oshape">
+			<div
+				className="oshape"
+				data-aos="zoom-in"
+				data-aos-easing="linear"
+				data-aos-duration="1500"
+			>
 				<img src={Oshape.src} alt="" />
 			</div>
 		</div>

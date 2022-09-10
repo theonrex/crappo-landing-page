@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
 
 body{
+        background-color: #0D0D2B !important;
 font-family: 'Titillium Web', sans-serif;}
 /* landingpage banner */
 .rowx{
@@ -875,6 +876,17 @@ right: 0;
             padding: 0 !important;
             float: left;
         }
+        .Statistic{
+            display: flex;
+                flex-direction: column;
+        }
+                .Statistic-img {
+                    order: 2;
+                }
+        
+                .stat_mine {
+                    order: 1;
+                }
 }
 
 /*subscribe*/
@@ -995,6 +1007,9 @@ li{
 
 .deneb_footer .widget_wrapper .widegt_about p {
     margin-bottom: 20px;
+}
+.social{
+    padding: 0!important;
 }
 
 .deneb_footer .widget_wrapper .widegt_about .social li {

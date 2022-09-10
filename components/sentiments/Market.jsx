@@ -8,11 +8,20 @@ function Market() {
 			<div className="cic">
 				<img src={Cic.src} alt="circle" />
 			</div>
-			<header>
+			<header
+				data-aos="zoom-out"
+				data-aos-easing="linear"
+				data-aos-duration="1500"
+			>
 				Market sentiments, portfolio, and run the infrastructure of your choice
 			</header>
 			<section className="rowx ">
-				<div className="col50 Invest">
+				<div
+					className="col50 Invest"
+					data-aos="fade-down"
+					data-aos-easing="linear"
+					data-aos-duration="1500"
+				>
 					<header>Invest Smart</header>
 					<p>
 						Get full statistic information about the behavior of buyers and
@@ -23,7 +32,12 @@ function Market() {
 						<a href="#/"> Learn More</a>{" "}
 					</button>
 				</div>
-				<div className="col50">
+				<div
+					className="col50"
+					data-aos="zoom-in"
+					data-aos-easing="linear"
+					data-aos-duration="1500"
+				>
 					<img src={Chart.src} alt="" />
 				</div>
 			</section>

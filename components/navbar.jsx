@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from "next/image";
 import Logo from "../public/images/Logo.png"
-import UseDarkMode from "./darkmode";
 
 
 function NavbarMenu() {
@@ -15,7 +14,7 @@ function NavbarMenu() {
 						<img src={Logo.src} alt="logo" className="nav-logo" />
 					</a>
 					<button
-						className="navbar-toggler"
+						className="navbar-toggler bg-light"
 						type="button"
 						data-bs-toggle="offcanvas"
 						data-bs-target="#offcanvasNavbarExample-expand-lg"
@@ -75,9 +74,7 @@ function NavbarMenu() {
 								<button className=" nav-btn Register-btn btn ">
 									<a href="/#">Register</a>
 								</button>
-								<button className=" nav-btn  btn btn-danger">
-									<UseDarkMode />
-								</button>
+							
 							</ul>
 						</div>
 					</div>

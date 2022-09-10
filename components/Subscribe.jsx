@@ -6,7 +6,12 @@ import Lines from "../public/images/line.png";
 
 function Subscribe() {
   return (
-		<div className="subscribe-bg ">
+		<div
+			className="subscribe-bg "
+			data-aos="zoom-in"
+			data-aos-easing="linear"
+			data-aos-duration="1800"
+		>
 			<section className="deneb_cta">
 				<div className="container">
 					<div className="cta_wrapper subscribe-img  ">

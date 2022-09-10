@@ -64,7 +64,7 @@ function Earn() {
 					</div>
 				</section>
 				<br /> <br />
-				<section className=" crypto-width container ">
+				<section className=" crypto-width  ">
 					<CryptoActive />
 				</section>
 			</div>
