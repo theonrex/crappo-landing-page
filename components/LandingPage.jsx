@@ -6,13 +6,17 @@ function LandingPage() {
 		<div className="container">
 			<section className="rowx landing-page">
 				<aside className="col50 ">
-					<header className="black-friday">
+					<header
+						className="black-friday"
+						data-aos="fade-down-left"
+						data-aos-duration="3000"
+					>
 						{" "}
 						<span
 							className="save"
-							data-aos="zoom-in"
+							data-aos="fade-up"
 							data-aos-easing="linear"
-							data-aos-duration="65700"
+							data-aos-duration="5700"
 						>
 							75% SAVE
 						</span>
@@ -36,7 +40,12 @@ function LandingPage() {
 					>
 						{" "}
 						Try for FREE
-						<div className="icon" data-aos="fade-up" data-aos-duration="3000">
+						<div
+							className="icon"
+							data-aos="fade-down"
+							data-aos-easing="linear"
+							data-aos-duration="3000"
+						>
 							<svg
 								width="7"
 								height="11"

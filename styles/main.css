@@ -3,8 +3,16 @@
 /*font*/
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
 body{
+        color: white;
         background-color: #0D0D2B !important;
 font-family: 'Titillium Web', sans-serif !important;}
+a{
+    text-decoration: none;
+        color: white;
+}
+a:hover{
+    color: white;
+}
 
 ol,
 ul {
@@ -160,7 +168,7 @@ border-radius: 3em;
         background-color: rgba(255, 255, 255, 0.212);
         width: 100%;
         font-size: 4vw !important;
-        padding: 3px 2em 3px 7em;
+        padding: 3px 0 3px 7em;
        
     }
 .header-text {
@@ -344,7 +352,7 @@ width: 100%;
             margin-right: auto;
             margin-left: auto;
             text-align: center;
-            width: 80%;
+            width: 100%;
         }
         .why-Btn {
                 margin-right: auto;
@@ -521,7 +529,7 @@ color: #0753c5;
         }
 
           .earn-rate {
-              width: 80%;
+              width: 90%;
               padding-bottom: 7em;
           }
                   .form-section {

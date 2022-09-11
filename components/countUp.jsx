@@ -9,21 +9,21 @@ function CountUpp() {
 			ref: "counter",
 			end: 30,
 			enableScrollSpy: true,
-			scrollSpyDelay: 500,
+			scrollSpyDelay: 50,
 		}); 
 		
 		useCountUp({
 			ref: "secondCounter",
 			end: 10,
 			enableScrollSpy: true,
-			scrollSpyDelay: 500,
+			scrollSpyDelay: 50,
 		});	
 		
 		useCountUp({
 			ref: "thirdCounter",
 			end: 195,
 			enableScrollSpy: true,
-			scrollSpyDelay: 500,
+			scrollSpyDelay: 50,
 		});
 
 	
@@ -36,8 +36,12 @@ function CountUpp() {
 				<span />
 			</div>
 			{}
-			<div className="col30" data-aos="fade-up" data-aos-duration="3000">
-				<aside className="col20 countup-svg-bg">
+			<div className="col30">
+				<aside
+					className="col20 countup-svg-bg"
+					data-aos="fade-down"
+					data-aos-duration="3000"
+				>
 					<svg
 						width="32"
 						height="32"
@@ -70,8 +74,12 @@ function CountUpp() {
 					<p>Digital Currency Exchange</p>
 				</aside>
 			</div>{" "}
-			<div className="col30" data-aos="fade-up" data-aos-duration="3000">
-				<aside className="col20 countup-svg-bg">
+			<div className="col30">
+				<aside
+					className="col20 countup-svg-bg"
+					data-aos="fade-down"
+					data-aos-duration="3000"
+				>
 					<svg
 						width="40"
 						height="40"
@@ -98,8 +106,12 @@ function CountUpp() {
 					<p>Trusted Wallets Investor</p>
 				</aside>
 			</div>{" "}
-			<div className="col30" data-aos="fade-up" data-aos-duration="3000">
-				<aside className="col20 countup-svg-bg">
+			<div className="col30">
+				<aside
+					className="col20 countup-svg-bg"
+					data-aos="fade-down"
+					data-aos-duration="3000"
+				>
 					<svg
 						width="40"
 						height="40"

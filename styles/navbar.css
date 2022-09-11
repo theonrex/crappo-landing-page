@@ -11,11 +11,10 @@ nav{
 .offcanvas.show:not(.hiding),
 .offcanvas.showing {
     transform: none;
-    transition: 1s;
+    transition: 10ms
 }
 .offcanvas.offcanvas-end {
-        transition: 1s;
-}
+    transition: 10ms}
 .nav-link {
     content: '';
     position: relative;
@@ -33,9 +32,9 @@ nav{
 .nav-link:hover:before {
     content: "";
     position: absolute;
-    height: 1px;
+    height: 2px;
     width: 80%;
-    background-color: #000eab5f;
+    background-color: #0014ed9c;
     display: inline-block;
     bottom: 0;
     margin: auto;
