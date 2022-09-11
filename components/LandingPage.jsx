@@ -9,14 +9,14 @@ function LandingPage() {
 					<header
 						className="black-friday"
 						data-aos="fade-down-left"
-						data-aos-duration="3000"
+						data-aos-duration="2000"
 					>
 						{" "}
 						<span
 							className="save"
 							data-aos="fade-up"
 							data-aos-easing="linear"
-							data-aos-duration="5700"
+							data-aos-duration="3000"
 						>
 							75% SAVE
 						</span>
