@@ -2,22 +2,9 @@
 
 /*font*/
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
-body{
-        color: white;
-        background-color: #0D0D2B !important;
-font-family: 'Titillium Web', sans-serif !important;}
-a{
-    text-decoration: none;
-        color: white;
-}
-a:hover{
-    color: white;
-}
 
-ol,
-ul {
-    padding-left: 0 !important;
-}
+
+
 /* landingpage banner */
 .rowx{
     display: table;
@@ -423,13 +410,7 @@ margin-right: auto;
     margin: auto;
         padding-bottom: 5em;
 }
-form{
-width: 100%;
-    padding-top: 2em ;
-    margin: auto;
-    color: black;
-    
-}
+
 .form-section form input {
     background-color: transparent;
     border-top-style: none;
@@ -437,10 +418,7 @@ width: 100%;
     border-bottom-style: solid;
     border-left-style: none;
 }
-input{
-        border-width: 1px;
-    color: rgba(0, 0, 0, 0.344);
-}
+
 .input-text{
     width: 50%;
 }
@@ -449,31 +427,9 @@ input{
     margin-left: 2em;
     margin-right: 2em;
 }
-select {
-    background-color: #ffffff !important;
-    color: rgb(0, 0, 0);
-   
-    border: none;
-    width: 20%;
-    border-width: 1px;
-    background-color: transparent;
-        background-color: transparent;
-            border-top-style: none;
-            border-right-style: none;
-            border-bottom-style:solid;
-            border-left-style: none;
-        
 
-}
-select:focus{
-    outline: none;
-    border-color: #f40a0a2e;
-    
-    }
 
-input:focus{
-outline: none;
-    border-color: #0000002e;}
+
 
 .form-section {
         border-radius: 1em;
@@ -487,16 +443,6 @@ box-shadow: -1px 28px 45px -15px rgba(0, 0, 0, 0.33);
     -moz-box-shadow: -1px 28px 45px -15px rgba(0, 0, 0, 0.33);
 }
 
-input[type = submit] {
-    background-color: #3671E9 !important;
-    color: white;
-    border-radius: 3em;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-    border: none;
-    width: 20%;
-    
-}
 
 .ESTIMATED{
     padding-top: 3em;
@@ -1014,18 +960,7 @@ margin: auto;
       float: left;
       }
 /*footer*/
-ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 0;
-    margin-block-end: 0;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 0;
-}
-li{
-    list-style: none;
-}
+
 
 .deneb_footer .widget_wrapper {
     background-repeat: no-repeat;

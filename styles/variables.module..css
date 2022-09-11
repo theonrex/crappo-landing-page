@@ -1,6 +1,26 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 /*font*/
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
+body {
+  color: white;
+  background-color: #0D0D2B !important;
+  font-family: "Titillium Web", sans-serif !important;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+ol,
+ul {
+  padding-left: 0 !important;
+}
+
 /* landingpage banner */
 .rowx {
   display: table;
@@ -406,12 +426,24 @@
   padding-bottom: 5em;
 }
 
+form {
+  width: 100%;
+  padding-top: 2em;
+  margin: auto;
+  color: black;
+}
+
 .form-section form input {
   background-color: transparent;
   border-top-style: none;
   border-right-style: none;
   border-bottom-style: solid;
   border-left-style: none;
+}
+
+input {
+  border-width: 1px;
+  color: rgba(0, 0, 0, 0.344);
 }
 
 .input-text {
@@ -424,6 +456,30 @@
   margin-right: 2em;
 }
 
+select {
+  background-color: #ffffff !important;
+  color: rgb(0, 0, 0);
+  border: none;
+  width: 20%;
+  border-width: 1px;
+  background-color: transparent;
+  background-color: transparent;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: solid;
+  border-left-style: none;
+}
+
+select:focus {
+  outline: none;
+  border-color: rgba(244, 10, 10, 0.1803921569);
+}
+
+input:focus {
+  outline: none;
+  border-color: rgba(0, 0, 0, 0.1803921569);
+}
+
 .form-section {
   border-radius: 1em;
   width: 70%;
@@ -434,6 +490,16 @@
   box-shadow: -1px 28px 45px -15px rgba(0, 0, 0, 0.33);
   -webkit-box-shadow: -1px 28px 45px -15px rgba(0, 0, 0, 0.33);
   -moz-box-shadow: -1px 28px 45px -15px rgba(0, 0, 0, 0.33);
+}
+
+input[type=submit] {
+  background-color: #3671E9 !important;
+  color: white;
+  border-radius: 3em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  border: none;
+  width: 20%;
 }
 
 .ESTIMATED {
@@ -943,6 +1009,25 @@
 }
 
 /*footer*/
+ul {
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+}
+
+li {
+  list-style: none;
+}
+
 .deneb_footer .widget_wrapper {
   background-repeat: no-repeat;
   background-size: cover;
@@ -1236,4 +1321,4 @@
 .deneb_cta .cta_wrapper .button_box .deneb_btn {
   background: #fff;
   color: #011a3e;
-}/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=variables.module..css.map */
