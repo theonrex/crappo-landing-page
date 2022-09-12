@@ -12,7 +12,10 @@
   margin-top: 5em;
   position: relative;
 }
-
+.footer-logo {
+    margin: auto;
+    display: block;
+}
 .col50 {
   width: 49.98%;
   float: left;
