@@ -19,7 +19,7 @@ function Footer() {
 							<div className="col-lg-3 col-md-6 col-12">
 								<div className="widget widegt_about">
 									<div className="widget_title">
-																<img src={Logo.src} alt="logo" className="nav-logo" />
+																<img src={Logo.src} alt="logo" className="footer-logo" />
 
 									</div>
 								</div>
