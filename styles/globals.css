@@ -2,7 +2,7 @@ html,
 body {
   color: white;
   background-color: #0D0D2B !important;
-  font-family: 'Titillium Web', sans-serif !important;
+  font-family: Titillium Web, sans-serif !important;
 }
 
 a {
@@ -94,6 +94,5 @@ li {
   body {
   color: white;
     background-color: #0D0D2B !important;
-    font-family: 'Titillium Web', sans-serif !important;
   }
 }
